@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,81 +20,84 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="main-container">
         <div class="breadcrumb">CHALLENGE</div>
 
         <!-- Steps -->
-        <div class="steps">
-            <div class="step active">
+        <article class="steps">
+            <section class="step active">
                 <div class="step-number">STEP 1</div>
                 <div class="step-title">Start challenge</div>
-            </div>
-            <div class="step">
+            </section>
+
+            <section class="step">
                 <div class="step-number">STEP 2</div>
                 <div class="step-title">Download assets</div>
-            </div>
-            <div class="step">
+            </section>
+
+            <section class="step">
                 <div class="step-number">STEP 3</div>
-                <div class="step-title">Submit solution</div>
-            </div>
-            <div class="step">
+                <div class="step-title">Submit solution</div> 
+            </section>
+
+            <section class="step">
                 <div class="step-number">STEP 4</div>
                 <div class="step-title">Review solutions</div>
-            </div>
-        </div>
+            </section>
 
-        <!-- Challenge Content -->
-        <div class="challenge-content">
-            <div class="challenge-info">
+        </article>
+
+        <!-- Information and preview -->
+        <article class="challenge-content">
+            <section class="challenge-info">
                 <div class="challenge-tags">
                     <span class="tag free">FREE</span>
                     <span class="tag html">HTML</span>
                     <span class="tag css">CSS</span>
                     <span class="tag junior">2 JUNIOR</span>
                 </div>
-                
+
                 <h1 class="challenge-title">Bento grid</h1>
-                
                 <p class="challenge-description">
                     This challenge is perfect for testing your CSS Grid and responsive skills with this bento grid layout.
                 </p>
-                
                 <a href="#" class="start-btn">START CHALLENGE</a>
-                
+
                 <div class="stats">
-                    
+                    <div class="stats-icon"></div>
                     <span>Join <strong>19,880</strong> people who have taken this challenge</span>
                 </div>
-            </div>
 
-            <div class="preview-container">
-                <img src="imagen.jpg" alt="" class="preview-image" />
-            </div>
-        </div>
+            </section>
 
-        <!-- Principal countainer -->
-        <section class="info-section">
-            <div class="info-grid">
-                <!-- Columna left -->
+            <section class="preview-container">
+                <img src="imagen.jpg" alt="Vista previa bento grid" class="preview-image" />
+            </section>
+
+        </article>
+
+        <!-- Targets information -->
+        <article class="info-section">
+            <section class="info-grid">
+                <!-- Principal target: Brief -->
                 <div class="info-card brief">
                     <h2>Brief</h2>
-                    <p>Your challenge is to build this bento grid and make it as close to the design as possible.</p>
-                    <p>You can use any tools you like to help you complete the challenge. So, if you have something you’d like to practice, feel free to give it a go.</p>
-                    <p>Your users should be able to:</p>
+                    <p>Construye este bento grid y hazlo lo más parecido posible al diseño.</p>
+                    <p>Puedes usar cualquier herramienta para completar el reto.</p>
+                    <p>El usuario debe poder:</p>
                     <ul>
-                        <li>View the optimal layout for the interface depending on their device’s screen size</li>
+                    <li>Ver el layout óptimo según el tamaño de pantalla</li>
                     </ul>
-                    <p>Download the project and go through the <a href="#">README.md</a> file. This will provide further details about the project and help you set it up.</p>
-                    <p>Want some support on the challenge? <a href="#">Join our community</a> and ask questions in the help channel.</p>
+                    <p>Descarga el proyecto y revisa el <a href="#">README.md</a> para más detalles.</p>
+                    <p>Want some support on the challenge?  <a href="#">Join our community</a> and ask questions in the help channel</p>
                 </div>
-                <!-- Columna derecha: dos tarjetas apiladas verticalmente -->
+
+                <!-- second targets -->
                 <div class="info-cards-right">
-                    <!-- taget -->
                     <div class="info-card assets">
-                        <h2> Assets provided</h2>
+                        <h2>Assets provided</h2>
                         <ul class="assets-list">
-                            <li><span class="cross">✗</span> Figma design file access - <a href="#">Unlock with Pro</a></li>
+                            <li><span class="cross">✗</span> Figma design file accessUnlock with Pro</li>
                             <li><span class="check">✓</span> JPEG design files for mobile & desktop layouts</li>
                             <li><span class="check">✓</span> Style guide for fonts, colors, etc.</li>
                             <li><span class="check">✓</span> Optimized image assets</li>
@@ -102,21 +105,22 @@
                             <li><span class="check">✓</span> HTML file with pre-written content</li>
                         </ul>
                     </div>
-                    <!-- Tarjeta de ideas para autoevaluación -->
                     <div class="info-card ideas">
-                        <h2> Ideas to test yourself</h2>
+                        <h2>Ideas para practicar</h2>
                         <ol>
                             <li>Most font sizes in this design change from mobile to desktop. Take this opportunity to practice scaling text sizes as the screen size increases.</li>
                             <li>Train your eye for detail by making your solution look similar to the design.</li>
                         </ol>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Sección de FAQs -->
-        <section class="faqs-section">
+            </section>
+        </article>
+
+        <!-- Frecuenly questions-->
+        <article class="faqs-section">
             <h2 class="faqs-title">CHALLENGE FAQS</h2>
-            <div class="faqs-list">
+
+            <section class="faqs-list">
                 <div class="faq-item">
                     <button class="faq-question">How can I get help if I'm stuck on a challenge?<span class="faq-icon">+</span></button>
                 </div>
@@ -144,24 +148,26 @@
                 <div class="faq-item">
                     <button class="faq-question">Can I use these challenges within my own free or commercial content/tutorials/projects?<span class="faq-icon">+</span></button>
                 </div>
-            </div>
-        </section>
-        <!-- Discord Section -->
-        <div class="discord-section">
+            </section>
+        </article>
+
+        <!-- Discord -->
+        <article class="discord-section">
+
             <div class="discord-logo">Discord</div>
             <h2 class="discord-title">JOIN OUR DISCORD COMMUNITY</h2>
             <p class="discord-description">
-                Join thousands of Frontend Mentor community members taking the challenges,<br/>
+                Join thousands of Frontend Mentor community members taking the challenges,
                 sharing resources, helping each other, and chatting about all things front-end!
             </p>
             <a href="#" class="discord-btn">JOIN OUR DISCORD</a>
-        </div>
+        </article>
     </main>
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer class="footer">
-        <div class="footer-main">
-            <div class="footer-logo-newsletter">
+        <article class="footer-main">
+            <section class="footer-logo-newsletter">
                 <div class="footer-logo-block">
                     <div class="footer-logo">
                         <span class="footer-logo-text">Frontend Mentor</span>
@@ -170,13 +176,14 @@
                         <h3 class="footer-newsletter-title">Stay up to date</h3>
                         <p class="footer-newsletter-desc">with new challenges, featured solutions, selected articles, and our latest news</p>
                         <form class="footer-newsletter-form">
-                            <input type="email" placeholder="email@example.com" class="footer-newsletter-input" />
+                            <input type="email" placeholder="email@ejemplo.com" class="footer-newsletter-input" />
                             <button class="footer-newsletter-btn" type="submit">SUBSCRIBE</button>
                         </form>
                     </div>
                 </div>
-            </div>
-            <div class="footer-links">
+            </section>
+
+            <section class="footer-links">
                 <div class="footer-links-col">
                     <h4>FRONTEND MENTOR</h4>
                     <ul>
@@ -209,17 +216,18 @@
                         <li><a href="#">Train developers</a></li>
                     </ul>
                 </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
+            </section>
+        </article>
+        
+        <article class="footer-bottom">
             <div class="footer-copyright">© Frontend Mentor 2019 - 2025</div>
             <div class="footer-legal-links">
-                <a href="#">Terms</a>
-                <a href="#">Cookie Policy</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">License</a>
+                <a href="#">Términos</a>
+                <a href="#">Cookies</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Licencia</a>
             </div>
-        </div>
+        </article>
     </footer>
 </body>
 </html>
